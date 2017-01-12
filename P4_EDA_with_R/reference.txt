@@ -1,0 +1,5 @@
+References:
+[1] https://www.rstudio.com/wp-content/uploads/2015/03/ggplot2-cheatsheet.pdf
+[2] https://github.com/allanbreyes/udacity-data-science/blob/master/p3/submission.Rmd
+[3] http://www.statmethods.net/advgraphs/ggplot2.html
+[4] http://www.wineskills.co.uk/winemaking/winemaking-knowledge-base/chemical-composition
