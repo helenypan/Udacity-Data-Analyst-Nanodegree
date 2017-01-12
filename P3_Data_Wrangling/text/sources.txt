@@ -1,0 +1,6 @@
+References:
+
+[1] https://gist.github.com/carlward/54ec1c91b62a5f911c42#file-sample_project-md
+[2] https://github.com/paul-reiners/udacity-data-wrangling-mongo-db
+[3] https://github.com/allanbreyes/udacity-data-science/tree/master/p2
+[4] http://wiki.openstreetmap.org/wiki/OSM_XML

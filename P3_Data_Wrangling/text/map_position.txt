@@ -1,0 +1,8 @@
+Map Position:
+
+Selected Area: Colchester, England
+
+Map URL: https://www.openstreetmap.org/relation/76493#map=11/51.8776/0.9033
+Data File URL: http://metro.teczno.com/#colchester
+
+I chose this particular area because it is the where I have lived in the recent years, I know it well and would like to help improve it if possible.
