@@ -1,0 +1,11 @@
+Files submitted:
+
+1. Data Files
+	- my_dataset.pkl, 
+	- my_classifier.pkl 
+	- my_feature_list.pkl
+	- dataset.csv: final dataset in spreadsheet
+2. Scripts
+	- poi_id.py: POI identifier model
+	- final_tools.py: helper functions, exploratory analysis and validation functions
+	- tester.py: Udacity provided file to produce relevant submission data files

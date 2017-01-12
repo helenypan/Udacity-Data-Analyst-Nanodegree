@@ -1,0 +1,7 @@
+References:
+[1] https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm
+[2] http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html#sklearn.neighbors.KNeighborsClassifier
+[3] https://randomforests.wordpress.com/2014/02/02/basics-of-k-fold-cross-validation-and-gridsearchcv-in-scikit-learn/
+[4] https://en.wikipedia.org/wiki/Cross-validation_%28statistics%29
+
+I hereby confirm that this submission is my work. I have cited above the origins of any parts of the submission that were taken from Websites, books, forums, blog posts, github repositories, etc.
