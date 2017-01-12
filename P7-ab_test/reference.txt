@@ -1,9 +1,0 @@
-[1] https://en.wikipedia.org/wiki/Binomial_distribution
-
-[2] http://graphpad.com/quickcalcs/binomial1/
-
-[3] http://www.evanmiller.org/ab-testing/sample-size.html
-
-[4] https://en.wikipedia.org/wiki/Bonferroni_correction
-
-[5] https://discussions.udacity.com/c/nd002-p7-design-an-a-b-test
