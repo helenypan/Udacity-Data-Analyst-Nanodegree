@@ -17,14 +17,14 @@ library(grid)
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 # Load the Data
-setwd('/Users/Helen/jobs/Udacity/Data Analyst/Data Analysis with R/final')
+setwd('/Users/yuepan/GitHub/udacity-data-analyst/P4_EDA_with_R')
 white_wine <- read.csv("wineQualityWhites.csv")
 ```
 
 # Univariate Plots Section
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-dim(white_wine) 
-str(white_wine)
+#dim(white_wine) 
+#str(white_wine)
 summary(white_wine)
 ```
 
@@ -39,6 +39,11 @@ white_wine$quality.band <- ifelse(white_wine$quality < 5, 'bad', ifelse(
   white_wine$quality < 8, 'average', 'good'))
 white_wine$quality.band <- ordered(white_wine$quality.band,
                      levels = c('bad', 'average', 'good'))
+```
+
+
+```{r}
+summary(white_wine)
 ```
 
 
