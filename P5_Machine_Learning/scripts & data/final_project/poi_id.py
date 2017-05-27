@@ -49,7 +49,7 @@ with open("final_project_dataset.pkl", "r") as data_file:
 #final_tools.export_csv(data_dict,"dataset.csv")
 
 ### visualise features and color poi, help to identify outliers.
-#final_tools.scatter_plot(data_dict,"salary","total_payments","poi")
+final_tools.scatter_plot(data_dict,"salary","total_payments","poi")
 
 ### Explore the dataset
 final_tools.explore_dataset(data_dict, poi_feature,financial_features_list,email_features_list)

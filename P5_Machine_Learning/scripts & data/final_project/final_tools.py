@@ -28,11 +28,11 @@ def export_csv(data_dict,csv_file):
 def scatter_plot(data_dict, x, y,poi):
     data = featureFormat(data_dict, [x, y, poi])
     for feature in data:
-        x = feature[0]
-        y = feature[1]
+        fx = feature[0]
+        fy = feature[1]
         poi = feature[2]
         color = 'red' if poi else 'green'
-        plt.scatter(x, y, color=color)
+        plt.scatter(fx, fy, color=color)
     plt.xlabel(x)
     plt.ylabel(y)
     plt.show()
@@ -110,7 +110,9 @@ def min_max_scale(features):
     return rescaled_features
 
 def k_fold_evaluate(clf, my_dataset, features_list, num_iters=1000, test_size=0.4,k=6):
+    # data is the numpy array of features, in this there are 4 features, so the data is like [[1,234,45,33],[],...[]]
     data = featureFormat(my_dataset, features_list, sort_keys = True)
+
     labels, features = targetFeatureSplit(data)
     labels = np.array(labels)
 
@@ -118,6 +120,11 @@ def k_fold_evaluate(clf, my_dataset, features_list, num_iters=1000, test_size=0.
     features = min_max_scale(features)
 
     print "\nValidation with KFold ( K =",k,"):"
+    # print "data:",data
+    # print "feature list:",features_list
+    # print "labels:",labels
+    # print "features:", features
+
     print clf
     accuracy = []
     precision = []
